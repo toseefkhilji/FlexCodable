@@ -6,6 +6,8 @@
 
 Lightweight Swift property wrappers for flexible `Codable` decoding — handles messy real-world APIs with zero dependencies.
 
+Maintained by [@toseefkhilji](https://github.com/toseefkhilji)
+
 ## Features
 
 - 📅 **Date** — parses 15+ formats + ISO8601 fast-path + `NSDataDetector` fallback
@@ -22,14 +24,14 @@ Lightweight Swift property wrappers for flexible `Codable` decoding — handles 
 In Xcode: **File → Add Package Dependencies** and enter:
 
 ```
-https://github.com/mobileconferences/FlexCodable
+https://github.com/toseefkhilji/FlexCodable
 ```
 
 Or add to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/mobileconferences/FlexCodable", from: "1.0.0")
+    .package(url: "https://github.com/toseefkhilji/FlexCodable", from: "1.0.0")
 ]
 ```
 
@@ -103,6 +105,10 @@ HH:mm:ss / HH:mm
 hh:mm:ss a / hh:mm a
 + NSDataDetector fallback (natural language dates)
 ```
+
+## Author
+
+**Toseef Khilji** — [@toseefkhilji](https://github.com/toseefkhilji)
 
 ## License
 

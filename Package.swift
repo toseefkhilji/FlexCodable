@@ -1,4 +1,6 @@
 // swift-tools-version: 5.9
+// FlexCodable — https://github.com/toseefkhilji/FlexCodable
+// Author: Toseef Khilji (@toseefkhilji)
 import PackageDescription
 
 let package = Package(
